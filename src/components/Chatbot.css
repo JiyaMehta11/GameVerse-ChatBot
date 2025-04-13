@@ -1,0 +1,120 @@
+/* Body Background */
+body {
+  background-image: url("https://www.example.com/your-gaming-background.jpg"); /* Replace with your actual background URL */
+  margin-bottom: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d1117;
+  overflow: hidden;
+}
+
+/* Chatbot Container */
+.chatbot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Chatbot Box */
+.chatbot-container > div {
+  width: 450px;
+  padding: 15px;
+  border: 1px solid #00bcd4;
+  border-radius: 12px;
+  background-color: rgba(13, 17, 23, 0.95);
+}
+
+/* Chatbot Title */
+.chatbot-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #2e8bc0;
+  font-weight: bold;
+}
+
+/* Chat Display Area */
+.chatbot-container > div > div {
+  max-height: 350px;
+  overflow-y: hidden;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+}
+
+/* User Message */
+.chatbot-container .user-message {
+  text-align: right;
+  background-color: #00e5ff;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px 0;
+  max-width: 80%;
+  color: #001f3f;
+  font-weight: bold;
+}
+
+/* Bot Message */
+.chatbot-container .bot-message {
+  text-align: left;
+  background-color: #2962ff;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px 0;
+  max-width: 80%;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Buttons */
+.chatbot-container button {
+  /* background: linear-gradient(135deg, #00e5ff, #2962ff); */
+  background: #b1d4e0;
+  border: none;
+  padding: 12px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+  margin: 10px auto;
+  width: 90%;
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* Button Hover */
+.chatbot-container button:hover {
+  background: #262d37;
+  color: white;
+  /* background: linear-gradient(135deg, #18ffff, #1e88e5); */
+  transform: scale(1.03);
+}
+
+/* Chatbot Footer */
+.chatbot-container .chat-footer {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Scrollbar */
+.chatbot-container > div > div::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chatbot-container > div > div::-webkit-scrollbar-thumb {
+  background-color: #d4f1f4;
+  border-radius: 5px;
+}
+
+.chatbot-container > div > div::-webkit-scrollbar-track {
+  background-color: #1a1f2b;
+}
