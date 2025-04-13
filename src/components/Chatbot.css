@@ -1,4 +1,3 @@
-/* Body Background */
 body {
   background-image: url("https://www.example.com/your-gaming-background.jpg"); /* Replace with your actual background URL */
   margin-bottom: 60px;
@@ -7,7 +6,6 @@ body {
   overflow: hidden;
 }
 
-/* Chatbot Container */
 .chatbot-container {
   display: flex;
   justify-content: center;
@@ -17,7 +15,6 @@ body {
   background-position: center;
 }
 
-/* Chatbot Box */
 .chatbot-container > div {
   width: 450px;
   padding: 15px;
@@ -26,7 +23,6 @@ body {
   background-color: rgba(13, 17, 23, 0.95);
 }
 
-/* Chatbot Title */
 .chatbot-container h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -35,7 +31,6 @@ body {
   font-weight: bold;
 }
 
-/* Chat Display Area */
 .chatbot-container > div > div {
   max-height: 350px;
   overflow-y: hidden;
@@ -45,7 +40,6 @@ body {
   border-radius: 8px;
 }
 
-/* User Message */
 .chatbot-container .user-message {
   text-align: right;
   background-color: #00e5ff;
@@ -58,7 +52,6 @@ body {
   font-weight: bold;
 }
 
-/* Bot Message */
 .chatbot-container .bot-message {
   text-align: left;
   background-color: #2962ff;
@@ -71,7 +64,6 @@ body {
   font-weight: bold;
 }
 
-/* Buttons */
 .chatbot-container button {
   /* background: linear-gradient(135deg, #00e5ff, #2962ff); */
   background: #b1d4e0;
@@ -88,7 +80,6 @@ body {
   font-weight: bold;
 }
 
-/* Button Hover */
 .chatbot-container button:hover {
   background: #262d37;
   color: white;
@@ -96,7 +87,6 @@ body {
   transform: scale(1.03);
 }
 
-/* Chatbot Footer */
 .chatbot-container .chat-footer {
   text-align: center;
   font-size: 12px;
@@ -105,7 +95,6 @@ body {
   font-style: italic;
 }
 
-/* Scrollbar */
 .chatbot-container > div > div::-webkit-scrollbar {
   width: 6px;
 }
